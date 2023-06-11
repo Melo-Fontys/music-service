@@ -37,4 +37,4 @@ jobs:
             CLUSTER_NAME: ${{ secrets.CLUSTER_NAME }}
             ZONE_NAME: europe-west1
           with:
-            args: apply -f k8s/
+            args: apply -f ./
