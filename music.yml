@@ -28,6 +28,7 @@ kind: Service
 metadata:
   name: music-clusterip-srv
 spec:
+  type: LoadBalancer
   selector:
     app: music
   ports:
